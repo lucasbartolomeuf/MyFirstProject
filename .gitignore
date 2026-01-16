@@ -1,20 +1,30 @@
+### Spring / Maven ###
 HELP.md
+
 target/
-.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+### Logs e bytecode ###
+*.log
+*.class
+
+### STS / Eclipse ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -32,9 +42,6 @@ build/
 ### VS Code ###
 .vscode/
 
+### Sistema ###
 .DS_Store
 .metadata
-.mvn
-
-mvnw
-mvnw.cmd
